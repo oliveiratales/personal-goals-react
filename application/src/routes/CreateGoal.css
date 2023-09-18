@@ -1,0 +1,65 @@
+.form-page {
+    padding: 2rem;
+}
+
+.create-h1 {
+    color: #e8f1f2;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.edit-h1 {
+    color: #e8f1f2;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.goal-description {
+    color: #e8f1f2;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.form-page form {
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background-color: #e8f1f2;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+.form-page label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-page span {
+    font-weight: 500;
+}
+
+.form-page input {
+    padding: 0.5rem 1rem;
+    border: 1px solid #cfcfcf;
+    border-radius: 10px;
+}
+
+.btn-create {
+    color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #333;
+    display: block;
+    width: fit-content;
+    margin: 1rem auto 0 auto;
+    cursor: pointer;
+}
+
+.btn-create:hover {
+    opacity: 0.8;
+    color: #e8f1f2;
+}
+

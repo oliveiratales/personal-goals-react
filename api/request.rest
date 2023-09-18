@@ -1,0 +1,31 @@
+POST http://localhost:3000/api/goals
+Content-Type: application/json
+
+{
+    "name": "Alguma outra meta",
+    "description": "Alguma outra metra",
+    "initialDate": "10/09/2023",
+    "finalDate": "11/09/2023",
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.consul.com.br%2Ffacilita-consul%2Fihhh-agora%2Fdicas-para-deixar-sua-cerveja-mais-saborosa%2F&psig=AOvVaw1tPsEDyLiFmxbyx57CQeY5&ust=1694435635267000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCLCr_eKGoIEDFQAAAAAdAAAAABAE"
+}
+
+###
+GET http://localhost:3000/api/goals
+
+###
+GET http://localhost:3000/api/goals/64fdbcaddd8545c64d27b7bd
+
+###
+DELETE http://localhost:3000/api/goals/64fdc34cece1e02849a1f361
+
+###
+PUT  http://localhost:3000/api/goals/64fdc34cece1e02849a1f361
+Content-Type: application/json
+
+{
+    "name": "Alguma outra meta",
+    "description": "Alguma outra descrição",
+    "initialDate": "12/09/2023",
+    "finalDate": "14/09/2023",
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.consul.com.br%2Ffacilita-consul%2Fihhh-agora%2Fdicas-para-deixar-sua-cerveja-mais-saborosa%2F&psig=AOvVaw1tPsEDyLiFmxbyx57CQeY5&ust=1694435635267000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCLCr_eKGoIEDFQAAAAAdAAAAABAE"
+}

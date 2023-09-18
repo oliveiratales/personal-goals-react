@@ -1,0 +1,50 @@
+.goal-card {
+    max-width: 600px;
+    background-color: aliceblue;
+    padding: 1rem;
+    margin: 2rem auto;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.goal-card img {
+    width: 100%;
+    height: 360px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.goal-card h1 {
+    color: black;
+    margin: 1rem;
+}
+
+.action-container {
+    margin: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.action-container a {
+    color: black;
+}
+
+.btn-secundary {
+    color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #ff0000;
+    width: fit-content;
+    cursor: pointer;
+    border: 1px solid #cfcfcf;
+}
+
+.goal-card span {
+    display: block;
+    margin-bottom: 1rem;
+    text-align: center;
+    
+}

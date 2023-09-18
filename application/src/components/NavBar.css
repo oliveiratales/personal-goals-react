@@ -1,0 +1,27 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #13293d;
+    color: #e8f1f2;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+a {
+    color: #e8f1f2;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+
+a:hover {
+    color: #247ba0;
+    transition: 0.4s;
+}
