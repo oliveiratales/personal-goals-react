@@ -14,11 +14,12 @@ Aplicação para controle de metas pessoas, desenvolvida com React.js para o fro
 
 ## Tecnologias Utilizadas
 
-- **React.js**: O frontend da aplicação é desenvolvido com o React.js, uma biblioteca JavaScript popular para a criação de interfaces de usuário.
+![pngwing com (13)](https://github.com/oliveiratales/personal-goals-reactjs/assets/118945743/33dc5b4f-39a7-4747-877b-2a140ebf8048)
+![pngwing com (14)](https://github.com/oliveiratales/personal-goals-reactjs/assets/118945743/235668f9-903b-4ad4-a65b-a6f871cc9edb)
+![pngwing com (17)](https://github.com/oliveiratales/personal-goals-reactjs/assets/118945743/d20e0d69-8064-4356-ab56-391457e63b9e)
+![pngwing com (15)](https://github.com/oliveiratales/personal-goals-reactjs/assets/118945743/14a663be-3b8a-4354-9de1-ea0c9d2cbe0e)
 
-- **Node.js**: O servidor backend é construído com o Node.js, que permite o gerenciamento de solicitações, lógica de negócios e interações com o banco de dados.
+## Layout
 
-- **MongoDB**: O MongoDB é utilizado como banco de dados para armazenar dados do usuário, incluindo metas pessoais.
-
-- **Express.js**: O Express.js é utilizado para criar uma API RESTful para comunicação entre o frontend e o backend.
+![image](https://github.com/oliveiratales/personal-goals-reactjs/assets/118945743/5cfc024a-274d-4983-b204-d61be266cba6)
 
