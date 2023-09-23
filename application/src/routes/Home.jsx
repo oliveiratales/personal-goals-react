@@ -26,7 +26,7 @@ const Home = () => {
     }
   };
 
-  if (!goals) return <p>Carregando...</p>;
+  if (!goals) return <p className="loading">Carregando...</p>;
 
   return (
     <div className="home">

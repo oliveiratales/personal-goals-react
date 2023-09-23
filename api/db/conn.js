@@ -6,7 +6,7 @@ async function main() {
 
     // Authentication
     await mongoose.connect(
-      "mongodb+srv://talesroliveira:jf3VaLkJwqWCOHl2@goalplan.dmbmxap.mongodb.net/?retryWrites=true&w=majority"
+      "enter-your-mongo-db-connection-string"
     );
 
     // Log
