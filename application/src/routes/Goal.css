@@ -1,6 +1,7 @@
 .goal-card {
     max-width: 600px;
     background-color: aliceblue;
+    color: #333;
     padding: 1rem;
     margin: 2rem auto;
     border-radius: 10px;
@@ -15,7 +16,7 @@
 }
 
 .goal-card h1 {
-    color: black;
+    color: #333;
     margin: 1rem;
 }
 
@@ -29,7 +30,7 @@
 }
 
 .action-container a {
-    color: black;
+    color: #333;
 }
 
 .btn-secundary {
@@ -48,3 +49,10 @@
     text-align: center;
     
 }
+
+@media (max-width: 768px) {
+    .goal-card {
+        max-width: 80%;
+
+    }
+  }

@@ -1,15 +1,16 @@
 .form-page {
     padding: 2rem;
+    color: #333;
 }
 
 .create-h1 {
-    color: #e8f1f2;
+    color: #fff;
     margin-bottom: 0.5rem;
     text-align: center;
 }
 
 .edit-h1 {
-    color: #e8f1f2;
+    color: #fff;
     margin-bottom: 2rem;
     text-align: center;
 }
@@ -58,8 +59,15 @@
     cursor: pointer;
 }
 
+/* Responsive */
+
 .btn-create:hover {
     opacity: 0.8;
     color: #e8f1f2;
 }
 
+@media (max-width: 768px) {
+    .form-page form {
+        width: 100%;
+    }
+  }

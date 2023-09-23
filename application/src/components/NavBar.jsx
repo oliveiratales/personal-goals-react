@@ -4,7 +4,7 @@ import './Navbar.css'
 const NavBar = () => {
   return (
     <nav>
-      <h2>Personal Goals</h2>
+      <h2><a href="/">Personal Goals</a></h2>
       <ul>
         <li>
           <NavLink to="/">Minhas metas</NavLink>
